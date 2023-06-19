@@ -78,3 +78,12 @@ li {
   float: left;
   margin: -155px 21px;;
 }
+
+
+
+.info {
+  width: 50vw;
+  float: left;
+  text-align: center;
+  margin: -28px 325px;;
+}
