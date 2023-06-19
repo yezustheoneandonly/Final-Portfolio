@@ -20,7 +20,10 @@
   margin: 75px 135px;
 }
 
-
+a, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+}
 
 li {
   display: inline;
