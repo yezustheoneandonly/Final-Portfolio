@@ -4,8 +4,25 @@
   box-sizing: border-box;
 }
 
+
 .background {
     width: 100vw;
     height: 100vh;
     background-image: url(/FinalBilder/Background.png);
+}
+
+.navbar {
+  height: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  margin: 75px 135px;
+}
+
+
+
+li {
+  display: inline;
+  padding: 10px;
 }
