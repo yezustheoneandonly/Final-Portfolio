@@ -29,3 +29,27 @@ li {
   display: inline;
   padding: 10px;
 }
+
+.logos {
+  width: 10vw;
+  
+}
+
+.knowlege {
+  width: 10vw;
+}
+
+#html {
+  float: left;
+  margin: -370px 19px;;
+}
+
+#css {
+  float: left;
+  margin: -335px 21px;;
+}
+
+#protools {
+  float: left;
+  margin: -307px 16px;;
+}
