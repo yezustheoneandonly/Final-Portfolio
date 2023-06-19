@@ -53,3 +53,28 @@ li {
   float: left;
   margin: -307px 16px;;
 }
+
+#cubase {
+  float: left;
+  margin: -273px 20px;;
+}
+
+#vscode {
+  float: left;
+  margin: -245px 21px;;
+}
+
+#premierepro {
+  float: left;
+  margin: -215px 21px;;
+}
+
+#aftereffects {
+  float: left;
+  margin: -185px 21px;;
+}
+
+#photoshop {
+  float: left;
+  margin: -155px 21px;;
+}
