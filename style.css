@@ -36,7 +36,6 @@ nav ul {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  /* padding-left: 20px; */
   height: 50px;
 }
 
