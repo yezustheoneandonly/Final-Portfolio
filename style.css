@@ -1,8 +1,9 @@
-* {
+*, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 
 .background {
@@ -14,7 +15,7 @@
 .navbar {
   height: 20px;
   color: white;
-  font-size: 30px;
+  
   font-weight: bold;
   float: left;
   margin: 75px 135px;
@@ -23,13 +24,26 @@
 a, a:hover, a:visited {
   color: white;
   text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+  margin: 0;
+}
+
+
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 485px;
+  display: inline-block;
+  padding: 0;
 }
 
 li {
   display: inline;
-  padding: 10px;
-}
 
+  }
+/*
 .logos {
   width: 10vw;
   
@@ -103,3 +117,51 @@ li {
   float: left;
   margin: -60px 690px;;
 }
+
+.bg-about {
+  background-image: url(/FinalBilder/secondbg.png);
+  width: 100vw;
+  height: 100vh;
+}
+
+.bild {
+  width: 300px;
+  float: left;
+  margin: -741px 50px;
+  opacity: 80%;
+}
+/*
+
+/* tooltip test*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin: 80px;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(0%);
+  transform: translateY(300%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
