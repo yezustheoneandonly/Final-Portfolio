@@ -24,7 +24,7 @@ body {
 nav {
   width: 100vw;
   height: 50px;
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 90px; 
 }
@@ -55,10 +55,8 @@ nav ul li a:visited {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 150px;
-  /* background-color: #000; */
-  background-color: #fff;
-  /* color: #fff; */
+  width: 750px;
+  background-color:rgba(255,255,255,0.2);
   color: #000;
   text-align: center;
   border-radius: 6px;
@@ -67,15 +65,28 @@ nav ul li a:visited {
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  transform: translateX(0%);
-  transform: translateY(300%);
+  transform: translateX(300px) translateY(450px);
   opacity: 0;
-  transition: opacity 0.3s;
+  transition-duration: 7000ms;
 }
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+  transition-duration: 4000ms;
+}
+
+.tooltiptext {
+  display: inline-flex;
+}
+
+.am {
+  margin: 10px;
+  padding-top: 15px;
+}
+
+.portrait {
+  border-radius: 10%;
 }
 /* .background {
   width: 100vw;
