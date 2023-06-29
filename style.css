@@ -29,8 +29,9 @@ nav {
   width: 100vw;
   height: 50px;
   position: fixed;
-  top: 40px;
-  left: 90px;
+  top: 25px;
+  left: 60px;
+  
 }
 
 nav ul {
@@ -108,7 +109,7 @@ nav ul li a:visited {
 */ a,
 a:hover,
 a:visited {
-  color: white;
+  color: #F25757;
   text-decoration: none;
   padding: 10px;
   font-size: 30px;
@@ -125,7 +126,12 @@ a:visited {
 
 li {
   display: inline;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 30px;
+  font-weight: bold;
 }
+
+
 
 .logos {
   width: 10vw;
@@ -168,6 +174,7 @@ footer {
 
 .info {
   font-size: 10px;
+  
 }
 
 .kleingedrucktes {
@@ -183,3 +190,14 @@ a {
   text-decoration: none;
 }
 
+.am {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.info1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  font-weight: lighter;
+}
