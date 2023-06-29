@@ -34,23 +34,24 @@ nav {
   
 }
 
-nav ul {
+nav .navi {
   height: 50px;
 }
 
-nav ul li {
+nav .navi .nav-me {
   list-style-type: none;
-  display: inline-block;
+  display:inline;
   height: 50px;
 }
 
-nav ul li a,
-nav ul li a:visited {
+nav .nav-me .navi a,
+nav .nav-me .navi a:visited {
   color: #fff;
   text-decoration: none;
 }
 
-/*  TEST TOOLTIP about me*/
+/*  TOOLTIP about me*/
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -88,22 +89,22 @@ nav ul li a:visited {
 }
 
 
-/*  TEST TOOLTIP Timeline */
+/*  TOOLTIP Timeline */
 
 
 .tooltip .tooltiptext2 {
   visibility: hidden;
-  width: 750px;
+  width: 900px;
+  height: 900px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #000;
-  text-align: center;
+  text-align: left;
   border-radius: 6px;
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
   left: 50%;
-  transform: translateX(200px) translateY(200px);
+  transform: translateX(200px) translateY(0px);
   opacity: 0;
   transition-duration: 7000ms;
 }
@@ -119,9 +120,7 @@ nav ul li a:visited {
   
 }
 
-
-
-
+/*  About me*/
 
 .am {
   margin: 10px;
@@ -136,14 +135,9 @@ nav ul li a:visited {
   height: 100vh;
   background-image: url(/FinalBilder/Background.png);
 }
-*/ .navbar {
-  height: 20px;
-  color: white;
 
-  font-weight: bold;
-  float: left;
-  margin: 75px 135px;
-}
+
+
 a,
 a:hover,
 a:visited {
@@ -153,7 +147,7 @@ a:visited {
   font-size: 30px;
   margin: 0;
 }
-*/ ul {
+*/ .navi {
   position: fixed;
   top: 0;
   left: 0;
@@ -162,9 +156,8 @@ a:visited {
   padding: 0;
 }
 
-li {
+li{
   display: inline;
-  
   font-weight: bold;
 }
 
@@ -239,4 +232,79 @@ a {
   font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
   font-weight: lighter;
+}
+
+
+/*  Zeitstrahl*/
+
+.zeitstrahl{
+	width:800px;
+	color:#182825;
+	padding:30px 20px;
+  border: 5px solid black;  
+	
+}
+
+.zeitstrahl .zeit{
+	list-style-type:none;
+	border-left:2px solid black;
+	padding:10px 5px;
+  border: 5px solid black;
+}
+
+.zeitstrahl .zeit .zeit2{
+	padding:20px 20px;
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+  border: 5px solid black;
+}
+
+.zeitstrahl .zeit .zeit2 .z-span{
+	display:inline-block;
+	background-color:#F25757;
+	border-radius:25px;
+	padding:2px 5px;
+	font-size:15px;
+	text-align: left;
+  
+}
+
+.zeitstrahl .zeit .zeit2 .daten h3{
+	color:#55251D;
+	font-size:17px;
+	padding-top:5px;
+}
+
+.zeitstrahl .zeit .zeit2 .daten p{
+	
+	font-size:15px;
+}
+
+.zeitstrahl .zeit .zeit2:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#55251D;
+	border-radius:100%;
+	left:-11px;
+	top:28px;
+	transition:.5s;
+}
+
+.zeitstrahl .zeit .zeit2:hover{
+	background-color:white;
+}
+
+.zeitstrahl .zeit .zeit2:hover:before{
+	background-color:#F25757;
+	box-shadow:0px 0px 10px 2px #F25757;
+}
+
+
+.zeitstrahl .zeit .zeit2 .daten h3{
+	color:#55251D;
+	font-size:15px;
+
 }
