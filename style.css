@@ -29,8 +29,8 @@ nav {
   width: 100vw;
   height: 50px;
   position: fixed;
-  top: 25px;
-  left: 60px;
+  top: 30px;
+  left: 45px;
   
 }
 
@@ -55,7 +55,7 @@ nav ul li a:visited {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
 }
 
 .tooltip .tooltiptext {
@@ -106,7 +106,7 @@ nav ul li a:visited {
   float: left;
   margin: 75px 135px;
 }
-*/ a,
+a,
 a:hover,
 a:visited {
   color: #F25757;
