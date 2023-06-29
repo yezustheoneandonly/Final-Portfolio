@@ -1,38 +1,29 @@
-*, html,body{
-	padding:0px;
-	margin:0px;
-	box-sizing:border-box;
-}
 
-body{
-	width:100%;
-	min-height:100vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
+
+
 
 .zeitstrahl{
 	width:800px;
 	color:#182825;
 	padding:30px 20px;
+    
 	
 }
 
-.zeitstrahl ul{
+.zeitstrahl .zeit{
 	list-style-type:none;
 	border-left:2px solid black;
 	padding:10px 5px;
 }
 
-.zeitstrahl ul li{
+.zeitstrahl .zeit .zeit2{
 	padding:20px 20px;
 	position:relative;
 	cursor:pointer;
 	transition:.5s;
 }
 
-.zeitstrahl ul li span{
+.zeitstrahl .zeit .zeit2 .z-span{
 	display:inline-block;
 	background-color:#F25757;
 	border-radius:25px;
@@ -41,18 +32,18 @@ body{
 	text-align:center;
 }
 
-.zeitstrahl ul li .daten h3{
+.zeitstrahl .zeit .zeit2 .daten h3{
 	color:#55251D;
 	font-size:17px;
 	padding-top:5px;
 }
 
-.zeitstrahl ul li .daten p{
+.zeitstrahl .zeit .zeit2 .daten p{
 	padding:5px 0px 15px 0px;
 	font-size:15px;
 }
 
-.zeitstrahl ul li:before{
+.zeitstrahl .zeit .zeit2:before{
 	position:absolute;
 	content:'';
 	width:10px;
@@ -64,17 +55,17 @@ body{
 	transition:.5s;
 }
 
-.zeitstrahl ul li:hover{
+.zeitstrahl .zeit .zeit2:hover{
 	background-color:white;
 }
 
-.zeitstrahl ul li:hover:before{
+.zeitstrahl .zeit .zeit2:hover:before{
 	background-color:#F25757;
 	box-shadow:0px 0px 10px 2px #F25757;
 }
 
 
-.zeitstrahl ul li .daten h3{
+.zeitstrahl .zeit .zeit2 .daten h3{
 	color:#55251D;
 	font-size:15px;
 
