@@ -96,7 +96,6 @@ nav .nav-me .navi a:visited {
 .tooltip .tooltiptext2 {
   visibility: hidden;
   width: 900px;
-  height: 900px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #000;
   text-align: left;
@@ -105,7 +104,7 @@ nav .nav-me .navi a:visited {
   position: absolute;
   z-index: 1;
   left: 50%;
-  transform: translateX(200px) translateY(0px);
+  transform: translateX(200px) translateY(-80px);
   opacity: 0;
   transition-duration: 9000ms;
 }
@@ -139,15 +138,9 @@ nav .nav-me .navi a:visited {
 
 
 
-a,
-a:hover,
-a:visited {
-  color: #F25757;
-  text-decoration: none;
-  padding: 10px;
-  font-size: 30px;
-  margin: 0;
-}
+
+
+
 */ .navi {
   position: fixed;
   top: 0;
@@ -216,12 +209,31 @@ footer {
   text-decoration: none;
   font-family: 'Princess Sofia', cursive;
   font-size: 30px;
+  color: white ;
 }
+
+
+.a-bout:hover{
+  text-decoration: none;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 30px;
+  color: #F25757 ;
+}
+
 
 .line {
   text-decoration: none;
   font-family: 'Princess Sofia', cursive;
   font-size: 30px;
+  color: white ;
+  margin-left: 15px;
+}
+
+.line:hover {
+  text-decoration: none;
+  font-family: 'Princess Sofia', cursive;
+  font-size: 30px;
+  color: #F25757 ;
 }
 
 .am {
@@ -311,6 +323,11 @@ footer {
 
 }
 .z-eit {
+  color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.z-eit:hover {
+  color: #F25757 ;
 }
