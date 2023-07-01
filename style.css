@@ -189,8 +189,12 @@ footer {
 
 .ko1 {
   display: inline;
+  padding-left: 10px;
 }
 
+.github {
+  top: 15px;
+}
 
 .kontakt img .ko1 {
   width: 2.5%;
@@ -217,6 +221,7 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  
 }
 
 .a-bout {
