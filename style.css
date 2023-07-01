@@ -180,16 +180,18 @@ nav .nav-me .navi a:visited {
 
 footer {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   position: absolute;
   display: flex;
   justify-content: center;
   bottom: 0;
 }
 
+
 .ko1 {
   display: inline;
   padding-left: 10px;
+  
 }
 
 .github {
@@ -202,7 +204,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
-  
 }
 
 .info {
