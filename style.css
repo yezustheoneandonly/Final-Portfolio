@@ -25,6 +25,10 @@ main {
   height: 90vh;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   width: 100vw;
   height: 50px;
@@ -96,7 +100,7 @@ nav .nav-me .navi a:visited {
 .tooltip .tooltiptext2 {
   visibility: hidden;
   width: 900px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: transparent;
   color: #000;
   text-align: left;
   border-radius: 6px;
@@ -104,7 +108,7 @@ nav .nav-me .navi a:visited {
   position: absolute;
   z-index: 1;
   left: 50%;
-  transform: translateX(200px) translateY(-80px);
+  transform: translateX(200px) translateY(-60px);
   opacity: 0;
   transition-duration: 9000ms;
 }
@@ -183,17 +187,27 @@ footer {
   bottom: 0;
 }
 
-.kontakt img a {
+.ko1 {
+  display: inline;
+}
+
+
+.kontakt img .ko1 {
   width: 2.5%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-decoration: none;
   
 }
 
 .info {
   font-size: 10px;
   
+}
+
+.info1 {
+  display: inline;
 }
 
 .kleingedrucktes {
@@ -268,6 +282,7 @@ footer {
 
 .zeitstrahl .zeit .zeit2{
 	padding:20px 20px;
+  
 	position:relative;
 	cursor:pointer;
 	transition:.5s;
@@ -288,6 +303,7 @@ footer {
 	color:#55251D;
 	font-size:17px;
 	padding-top:5px;
+  height: 5px;
 }
 
 .zeitstrahl .zeit .zeit2 .daten p{
@@ -308,7 +324,7 @@ footer {
 }
 
 .zeitstrahl .zeit .zeit2:hover{
-	background-color:white;
+	background-color: transparent;
 }
 
 .zeitstrahl .zeit .zeit2:hover:before{
