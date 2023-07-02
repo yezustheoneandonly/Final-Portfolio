@@ -36,6 +36,7 @@ nav {
   top: 30px;
   left: 45px;
   
+  
 }
 
 nav .navi {
@@ -69,7 +70,7 @@ nav .nav-me .navi a:visited {
   visibility: hidden;
   width: 750px;
   background-color: rgba(255, 255, 255, 0.2);
-  color: #000;
+  color: #182825;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
@@ -90,7 +91,7 @@ nav .nav-me .navi a:visited {
 
 .tooltiptext {
   display: inline-flex;
-  
+  color: #182825;
 }
 
 
@@ -101,7 +102,7 @@ nav .nav-me .navi a:visited {
   visibility: hidden;
   width: 900px;
   background-color: transparent;
-  color: #000;
+  color: #182825;
   text-align: left;
   border-radius: 6px;
   padding: 5px;
@@ -121,7 +122,7 @@ nav .nav-me .navi a:visited {
 
 .tooltiptext2 {
   display: inline-flex;
-  
+  color: #182825;
 }
 
 /*  About me*/
@@ -305,8 +306,8 @@ footer {
   
 }
 
-.zeitstrahl .zeit .zeit2 .daten h3{
-	color:#55251D;
+.zeitstrahl .zeit .zeit2 .daten .ü1{
+	
 	font-size:17px;
 	padding-top:5px;
   height: 5px;
@@ -339,9 +340,10 @@ footer {
 }
 
 
-.zeitstrahl .zeit .zeit2 .daten h3{
-	color:#55251D;
+.zeitstrahl .zeit .zeit2 .daten .ü1{
+	color:#2C8C99;
 	font-size:15px;
+  font-weight: bold;
 
 }
 .z-eit {
@@ -352,4 +354,9 @@ footer {
 
 .z-eit:hover {
   color: #F25757 ;
+}
+
+.ü1 {
+  color:#2C8C99;
+	
 }
