@@ -374,29 +374,35 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  padding: 10%
-}
-
-.portrait-pic {
+  padding: 10%;
   display: flex;
   align-items: center;
-  background-image: url(/FinalBilder/IMG_4813.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 20%;
-  border-radius: 3%;
-  grid-area: 1/1/3/2;
-  -webkit-border-radius: 3%;
-  -moz-border-radius: 3%;
-  -ms-border-radius: 3%;
-  -o-border-radius: 3%;
+  flex-direction: column;
 }
+
+
+
+.portrait-content > img {
+  float: left;
+  margin: 1rem;
+  width:min(10rem, 50%, 51rem);
+  height: 20vh;
+  border-radius: 50%;
+  border: double 6px #F25757  ;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 
 .a-content {
   grid-area: 1/2/2/3;
+  line-height: 2;
 }
 
 .a-content2 {
   grid-area: 2/2/3/3;
+  line-height: 2;
 }
+
