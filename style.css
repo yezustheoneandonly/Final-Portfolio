@@ -378,6 +378,8 @@ footer {
 }
 
 .portrait-pic {
+  display: flex;
+  align-items: center;
   background-image: url(/FinalBilder/IMG_4813.JPG);
   background-size: cover;
   background-repeat: no-repeat;
