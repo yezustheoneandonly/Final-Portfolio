@@ -378,9 +378,10 @@ footer {
 }
 
 .portrait-pic {
-  display:flex;
-  align-items: center;
-  width: 80%;
+  background-image: url(/FinalBilder/IMG_4813.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 20%;
   border-radius: 3%;
   grid-area: 1/1/3/2;
@@ -391,5 +392,9 @@ footer {
 }
 
 .a-content {
-  grid-area: 1/2/3/3;
+  grid-area: 1/2/2/3;
+}
+
+.a-content2 {
+  grid-area: 2/2/3/3;
 }
