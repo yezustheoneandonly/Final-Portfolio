@@ -386,7 +386,7 @@ footer {
   float: left;
   margin: 1rem;
   width:min(10rem, 50%, 51rem);
-  height: 20vh;
+  height: 150px;
   border-radius: 50%;
   border: double 6px #F25757  ;
   -webkit-border-radius: 50%;
