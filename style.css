@@ -270,7 +270,7 @@ footer {
 }
 
 
-/*  Zeitstrahl*/
+/*  Zeitstrahl -Desktop*/
 
 .zeitstrahl{
 	width:800px;
@@ -406,3 +406,98 @@ footer {
   line-height: 2;
 }
 
+/* Timeline mobile */
+
+.tl-bg {
+  background-image: url(/FinalBilder/secondbg.png);
+}
+
+.zeitstrahl-m{
+	width:100vw;
+	color:#182825;
+	padding:30px 20px;
+    
+	
+}
+
+.zeitstrahl-m .zeit-m{
+	list-style-type:none;
+	border-left:2px solid black;
+	padding:10px 5px;
+  
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m{
+	padding:20px 20px;
+  
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+  
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m .z-span-m{
+	display:inline-flex;
+	background-color:#F25757;
+	border-radius:25px;
+	padding:2px 5px;
+	font-size:15px;
+	text-align: left;
+  
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m .daten-m .ü1-m{
+	
+	font-size:17px;
+	padding-top:5px;
+  height: 5px;
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m .daten-m p{
+	line-height: 1.5;
+	font-size:15px;
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#55251D;
+	border-radius:100%;
+	left: -11px;
+	top:28px;
+	transition:.5s;
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m:hover{
+	background-color: transparent;
+}
+
+.zeitstrahl-m .zeit-m .zeit2-m:hover:before{
+	background-color:#F25757;
+	box-shadow:0px 0px 10px 2px #F25757;
+}
+
+
+.zeitstrahl-m .zeit-m .zeit2-m .daten-m .ü1-m{
+	color:#2C8C99;
+	font-size:15px;
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+.z-eit-m {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.z-eit-m:hover {
+  color: #F25757 ;
+}
+
+.ü1-m {
+  line-height: 2;
+  margin-bottom: 3%;
+}
