@@ -16,8 +16,10 @@ body {
 .main {
   background-image: url(/FinalBilder/Background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1920px 1040px;
   background-attachment: fixed;
+  
+  
   /* background-position: 50% 50%; */
 }
 
@@ -501,3 +503,7 @@ footer {
   line-height: 2;
   margin-bottom: 3%;
 }
+
+/* media querry's */
+
+
