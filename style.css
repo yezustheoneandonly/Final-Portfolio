@@ -537,9 +537,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 1400px 1040px;
     background-attachment: fixed;
-    
-    
-    /* background-position: 50% 50%; */
   }
 
   nav {
@@ -554,17 +551,9 @@ footer {
 
   .knowlege {
     width: 48px;
-    position: absolute;
-    display: flex;
-    align-items: end;
-    margin-left: 10px;
   }
 
   .a-bout {
-    text-decoration: none;
-    font-family: 'Princess Sofia', cursive;
-    font-size: 30px;
-    color: white ;
     pointer-events: all;
     cursor: default;
     
@@ -572,14 +561,11 @@ footer {
   
   
   .line {
-    text-decoration: none;
-    font-family: 'Princess Sofia', cursive;
-    font-size: 30px;
-    color: white ;
-    margin-left: 15px;
     pointer-events: all; 
     cursor: default;
+
   }
+
   .tooltip:hover .tooltiptext2 {
     visibility: hidden;
      
@@ -602,9 +588,6 @@ footer {
     background-repeat: no-repeat;
     background-size: 1920px 1040px;
     background-attachment: fixed;
-    
-    
-    /* background-position: 50% 50%; */
   }
 
   nav {
@@ -613,19 +596,7 @@ footer {
     position: fixed;
     top: 50px;
     left: 100px;
-    
-    
   }
-
-  .knowlege {
-    width: 48px;
-    position: absolute;
-    display: flex;
-    align-items: end;
-    margin-left: 10px;
-  }
-
-
 
 }
 
