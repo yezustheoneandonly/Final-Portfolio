@@ -380,10 +380,7 @@ footer {
 /* about me handy */
 
 .bg-about {
-  background-image: url(/FinalBilder/secondbg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: transparent;
 }
 
 .portrait-content {
@@ -423,7 +420,7 @@ footer {
 /* Timeline mobile */
 
 .tl-bg {
-  background-image: url(/FinalBilder/secondbg.png);
+  background-color: transparent;
 }
 
 .zeitstrahl-m{
@@ -565,6 +562,17 @@ footer {
     visibility: hidden;
   }
 
+  iframe {
+    background-color: transparent;
+    width: 75vw;
+    height: 65vh;
+    position: absolute;
+    margin-left: 15vw;
+    top: 20vh;
+    
+    
+  }
+
 
 }
 
@@ -588,7 +596,17 @@ footer {
     left: 100px;
   }
 
+  iframe {
+    display: none;
+  }
+
+
 }
+
+
+
+
+
 
 
   
