@@ -580,8 +580,14 @@ footer {
     pointer-events: all; 
     cursor: default;
   }
+  .tooltip:hover .tooltiptext2 {
+    visibility: hidden;
+     
+  }
 
-  
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
 
 
 }
