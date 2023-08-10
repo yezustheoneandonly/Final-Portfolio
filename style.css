@@ -14,7 +14,7 @@ body {
 }
 
 .main {
-  background-image: url(../FinalBilder/Background.png);
+  background-image: url(./FinalBilder/Background.png);
   background-repeat: no-repeat;
   background-size: 1920px 1040px;
   background-attachment: fixed;
@@ -154,7 +154,7 @@ nav .nav-me .navi a:visited {
 .background {
   width: 100vw;
   height: 100vh;
-  background-image: url(../FinalBilder/secondbg.png);
+  background-image: url(./FinalBilder/secondbg.png);
 }
 
 
@@ -520,7 +520,7 @@ footer {
 @media screen and (max-width:1399px)  {
 
   .main {
-    background-image: url(../FinalBilder/Background.png);
+    background-image: url(./FinalBilder/Background.png);
     background-repeat: no-repeat;
     background-size: 1400px 1040px;
     background-attachment: fixed;
@@ -582,7 +582,7 @@ footer {
 @media screen and (min-width:1400px) {
 
   .main {
-    background-image: url(/FinalBilder/Background.png);
+    background-image: url(./FinalBilder/Background.png);
     background-repeat: no-repeat;
     background-size: 1920px 1040px;
     background-attachment: fixed;
